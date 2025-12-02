@@ -1,0 +1,84 @@
+{
+    "input_columns": [
+        "gender",
+        "age",
+        "city",
+        "restaurant_name",
+        "dish_name",
+        "category",
+        "quantity",
+        "price",
+        "payment_method",
+        "order_frequency",
+        "loyalty_points",
+        "rating",
+        "delivery_status"
+    ],
+    "categorical_cols": [
+        "gender",
+        "age",
+        "city",
+        "restaurant_name",
+        "dish_name",
+        "category",
+        "payment_method",
+        "delivery_status"
+    ],
+    "numeric_cols": [
+        "quantity",
+        "price",
+        "order_frequency",
+        "loyalty_points",
+        "rating"
+    ],
+    "categories": {
+        "gender": [
+            "Female",
+            "Male",
+            "Other"
+        ],
+        "age": [
+            "Adult",
+            "Senior",
+            "Teenager"
+        ],
+        "city": [
+            "Islamabad",
+            "Karachi",
+            "Lahore",
+            "Multan",
+            "Peshawar"
+        ],
+        "restaurant_name": [
+            "Burger King",
+            "KFC",
+            "McDonald's",
+            "Pizza Hut",
+            "Subway"
+        ],
+        "dish_name": [
+            "Burger",
+            "Fries",
+            "Pasta",
+            "Pizza",
+            "Sandwich"
+        ],
+        "category": [
+            "Chinese",
+            "Continental",
+            "Dessert",
+            "Fast Food",
+            "Italian"
+        ],
+        "payment_method": [
+            "Card",
+            "Cash",
+            "Wallet"
+        ],
+        "delivery_status": [
+            "Cancelled",
+            "Delayed",
+            "Delivered"
+        ]
+    }
+}
